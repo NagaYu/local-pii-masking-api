@@ -1,0 +1,6 @@
+# Runtime dependencies — pinned for reproducible, locked-down builds.
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.11.7
+
+# Test-only (not required at runtime; install with: pip install -r requirements-dev.txt)
