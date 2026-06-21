@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/NagaYu/local-pii-masking-api/actions/workflows/ci.yml/badge.svg)](https://github.com/NagaYu/local-pii-masking-api/actions/workflows/ci.yml)
 [![Docker Publish](https://github.com/NagaYu/local-pii-masking-api/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/NagaYu/local-pii-masking-api/actions/workflows/docker-publish.yml)
-[![Docker Hub](https://img.shields.io/docker/pulls/nagayu/local-pii-masking-api.svg)](https://hub.docker.com/r/nagayu/local-pii-masking-api)
+[![Docker Hub](https://img.shields.io/docker/pulls/yuta713/local-pii-masking-api.svg)](https://hub.docker.com/r/yuta713/local-pii-masking-api)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 
@@ -59,7 +59,7 @@ the host.**
 Pull the pre-built image (multi-arch: `linux/amd64`, `linux/arm64`):
 
 ```bash
-docker run --rm -p 8080:8080 nagayu/local-pii-masking-api:latest
+docker run --rm -p 8080:8080 yuta713/local-pii-masking-api:latest
 ```
 
 …or build it locally from source:
